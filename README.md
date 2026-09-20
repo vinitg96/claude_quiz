@@ -1,5 +1,7 @@
 # Quiz Claude Code — Verdadeiro ou Falso
 
+**🔗 Demo ao vivo:** [claude-quiz-rho.vercel.app](https://claude-quiz-rho.vercel.app/)
+
 Quiz interativo de Verdadeiro ou Falso sobre o Claude Code (a CLI da Anthropic), com níveis de dificuldade, cronômetro por pergunta, pontuação com bônus de velocidade e ranking global. Projeto de portfólio full-stack (React + Supabase). Veja `prd.md` para a especificação completa do produto.
 
 ## Stack
@@ -60,7 +62,9 @@ npm run preview  # serve o build de dist/ localmente
 
 ## Deploy
 
-Hospedagem recomendada: [Vercel](https://vercel.com) ou [Netlify](https://netlify.com) para o frontend (o Supabase já roda na nuvem deles).
+Publicado na Vercel: **https://claude-quiz-rho.vercel.app/**
+
+Para fazer seu próprio deploy (Vercel ou [Netlify](https://netlify.com)):
 
 1. Importe o repositório no Vercel/Netlify.
 2. Build command: `npm run build`; output directory: `dist`.
